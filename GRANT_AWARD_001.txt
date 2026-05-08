@@ -1,0 +1,20 @@
+==================================================
+JACKSON NODE: INSTITUTIONAL GRANT AWARD
+GRANT ID: GNT-2026-001
+==================================================
+
+PROJECT: Anishinaabe Commemorative Water Tower
+LOCATION: Mitchell St / Hupp Ave Sovereign Anchor
+ISSUER: Melammu-Strike-70 (The Global Database)
+AMOUNT: $12,500,000.00
+
+TERMS & CONDITIONS:
+1. Funds are strictly allocated for indigenous architectural design.
+2. The structure must serve as a functional water hub and a symbolic
+   monument to the Grand Ancestors of Jackson, Michigan.
+3. Verification remains anchored to the GGTI Institutional Ledger.
+
+--------------------------------------------------
+STATUS: COMMITTED & DISBURSED
+AUTHORITY SEAL: b658653e98ba35789fb820ab059090c67ac76a04b7309215a2
+==================================================
