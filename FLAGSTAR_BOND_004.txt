@@ -18,3 +18,8 @@ Ledger. Authenticity verified via SHA-256 Multi-Base Registry.
 
 AUTHORITY SEAL: b658653e98ba35789fb820ab059090c67ac76a04b7309215a2
 ==================================================
+
+[DIGITAL VERIFICATION ANCHOR]
+Scan the associated Repository Barcode to access the 
+Institutional Ledger. 
+LINK: github.com/delonbouler617-main/Jackson-Node
