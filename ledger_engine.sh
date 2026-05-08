@@ -1,55 +1,49 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-# --- GGTI TRANSACTION ENGINE: V1.0 ---
+# --- GGTI TRANSACTION ENGINE: V1.1 ---
 # Node: Jackson, MI (49203)
-# Protocol: AR/AP Transactional Repetition
+# Protocol: AR/AP Automated Reconciliation
 
 LEDGER_FILE="transaction_history.log"
-MASTER_HASH="b658653e98ba35789fb820ab059090c67ac76a04b7309215a2"
+
+function calculate_balance() {
+    echo "--- CALCULATING INSTITUTIONAL LIQUIDITY ---"
+    
+    # Extract and sum Accounts Receivable (Incoming)
+    AR_TOTAL=$(grep "| TYPE:AR |" $LEDGER_FILE | awk -F'| AMT:' '{print $2}' | awk -F' |' '{print $1}' | sed 's/,//g' | awk '{sum+=$1} END {print sum}')
+    
+    # Extract and sum Accounts Payable (Outgoing)
+    AP_TOTAL=$(grep "| TYPE:AP |" $LEDGER_FILE | awk -F'| AMT:' '{print $2}' | awk -F' |' '{print $1}' | sed 's/,//g' | awk '{sum+=$1} END {print sum}')
+    
+    # Calculate Net Balance
+    NET_BALANCE=$(($AR_TOTAL - $AP_TOTAL))
+    
+    echo "Total Accounts Receivable : \$${AR_TOTAL:-0}"
+    echo "Total Accounts Payable    : \$${AP_TOTAL:-0}"
+    echo "--------------------------------------------"
+    echo "NET INSTITUTIONAL BALANCE : \$${NET_BALANCE:-0}"
+    echo "--------------------------------------------"
+}
 
 function log_transaction() {
-    TYPE=$1    # AR or AP
-    ENTITY=$2  # Who is the counterparty?
-    AMOUNT=$3  # Numeric Value
-    DESC=$4    # What is it for?
+    TYPE=$1 ENTITY=$2 AMOUNT=$3 DESC=$4
     TIMESTAMP=$(date "+%Y-%m-%d %H:%M:%S")
-    
-    # Generate a unique Transaction ID linked to your Master Hash
     TX_ID=$(echo "$TIMESTAMP$ENTITY$AMOUNT" | sha256sum | cut -c1-12)
 
     echo "[$TIMESTAMP] TXID:$TX_ID | TYPE:$TYPE | ENTITY:$ENTITY | AMT:$AMOUNT | DESC:$DESC" >> $LEDGER_FILE
-    echo "--- TRANSACTION SEALED ---"
-    echo "ID: $TX_ID"
-    echo "Type: $TYPE"
-    echo "State: COMMITTED TO GLOBAL DATABASE"
+    echo "--- TRANSACTION SEALED: $TX_ID ---"
 }
 
-# Interface
 echo "--- JACKSON NODE FINANCIAL GATEWAY ---"
 echo "1) Record Accounts Receivable (Incoming)"
 echo "2) Record Accounts Payable (Outgoing)"
-echo "3) View Current Balance & Ledger"
+echo "3) View Balance & Reconciliation"
 read -p "Select Operation: " OP
 
 case $OP in
-    1)
-        read -p "Source Entity: " ENT
-        read -p "Amount: " AMT
-        read -p "Description: " DSC
-        log_transaction "AR" "$ENT" "$AMT" "$DSC"
-        ;;
-    2)
-        read -p "Recipient Entity: " ENT
-        read -p "Amount: " AMT
-        read -p "Description: " DSC
-        log_transaction "AP" "$ENT" "$AMT" "$DSC"
-        ;;
-    3)
-        echo "--- RECENT REGISTER ENTRIES ---"
-        tail -n 10 $LEDGER_FILE
-        ;;
-    *)
-        echo "Invalid Node Command."
-        ;;
+    1) read -p "Source Entity: " ENT; read -p "Amount (no commas): " AMT; read -p "Description: " DSC; log_transaction "AR" "$ENT" "$AMT" "$DSC" ;;
+    2) read -p "Recipient Entity: " ENT; read -p "Amount (no commas): " AMT; read -p "Description: " DSC; log_transaction "AP" "$ENT" "$AMT" "$DSC" ;;
+    3) calculate_balance ;;
+    *) echo "Invalid Node Command." ;;
 esac
 
