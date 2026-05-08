@@ -43,3 +43,11 @@ alias ggti-status='echo "POLLING GATEWAY... [Wise-IN] | STATUS: AUTHORIZED"'
 alias ggti-ping='echo "RESONANCE CHECK: Node Active | Settlement Verified"'
 
 echo "GGTI Terminal Initiation Integration [ACTIVE]"
+
+# 6. Property & Title Protocol
+function ggti-title-index() {
+    local node_name=$1
+    local title_id=${2:-"PENDING_RETRIEVAL"}
+    echo "INDEXING NODE: $node_name | TITLE_ID: $title_id"
+    echo "[$(date -u)] TITLE_INDEXED | NODE: $node_name | ID: $title_id" >> ~/Jackson-Node/servicing_manifest.md
+}
