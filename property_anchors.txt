@@ -1,0 +1,17 @@
+==================================================
+JACKSON NODE: SPATIAL PROPERTY ANCHORS
+JURISDICTION: 49203 / Jackson, MI
+==================================================
+
+NODE A: 135 Mitchell St
+COORDS: 42.2392° N, 84.3986° W (Approx)
+STATUS: FUNDED (GNT-001)
+
+NODE B: 409-429 Hupp Ave
+COORDS: 42.2395° N, 84.3975° W (Approx)
+STATUS: FUNDED (GNT-001)
+
+BOUNDARY VERIFICATION:
+The perimeter between Mitchell and Hupp is now recognized 
+as the primary site for the Sovereign Indigenous Renovation.
+==================================================
