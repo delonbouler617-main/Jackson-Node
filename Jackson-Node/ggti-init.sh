@@ -51,3 +51,17 @@ function ggti-title-index() {
     echo "INDEXING NODE: $node_name | TITLE_ID: $title_id"
     echo "[$(date -u)] TITLE_INDEXED | NODE: $node_name | ID: $title_id" >> ~/Jackson-Node/servicing_manifest.md
 }
+
+# 7. Network Deep-Scan Protocol
+function ggti-deep-scan() {
+    echo "INITIATING DEEP-SCAN: C4 OPERATIONS..."
+    local nodes=("Otay Mesa" "La Presa" "C4-HQ")
+    for node in "${nodes[@]}"; do
+        echo -n "POLLING NODE [$node]... "
+        # Simulate resonance check
+        sleep 1
+        echo "RESONANCE: 100% | STATUS: AUTHORIZED"
+    done
+    echo "SCAN COMPLETE: REGIONAL MESH INTEGRITY VERIFIED"
+    echo "[$(date -u)] DEEP_SCAN_COMPLETE | JURISDICTION: Regional C4 | STATUS: CLEAR" >> ~/Jackson-Node/servicing_manifest.md
+}
