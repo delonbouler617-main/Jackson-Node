@@ -1,0 +1,10 @@
+{
+  "transaction_id": "7b2f9a1c",
+  "technician": "Melammu-Strike-70",
+  "node": "Jackson-Node",
+  "amount_usd": 100.00,
+  "asset": "BTC",
+  "recipient": "bc1qudkwd7hwm9wn2dyy3e5s308c9plnuydwwz6xjv",
+  "status": "COMMITTED",
+  "timestamp": "2026-05-09T19:04:51Z"
+}
