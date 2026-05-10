@@ -1,0 +1,9 @@
+{
+  "transaction_id": "0737afdf6c06eb09b2aa462dfd1891cd9165d08ed45",
+  "node_origin": "Jackson-Node-49203",
+  "ledger_timestamp": "2026-05-09T20:17:22Z",
+  "confirmation_status": "SECURED",
+  "protocol_tag": "OP_RETURN",
+  "network_fees_sats": 152,
+  "archive_status": "COMMITTED"
+}
