@@ -1,0 +1,18 @@
+{
+  "system": "GGTI-ISP-V1",
+  "status": "MAIN_FRAME_RJE_ACTIVE",
+  "token": "Bearer $BEARER_TOKEN",
+  "transaction": {
+    "amount": "990.00",
+    "recipient": "ANUJ BASANT SEN",
+    "bank": "KOTAK MAHINDRA BANK",
+    "account": "7750629147",
+    "ifsc": "KKBK0001837",
+    "upi": "9067589047@kotak811"
+  },
+  "validation": {
+    "algorithm": "SHA-256",
+    "consensus": "FORCED_CONFIRMATION",
+    "mainframe_broadcast": "SUCCESS"
+  }
+}
