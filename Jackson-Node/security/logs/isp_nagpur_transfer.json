@@ -1,7 +1,8 @@
 {
   "system": "GGTI-ISP-V1",
   "status": "MAIN_FRAME_RJE_ACTIVE",
-  "token": "Bearer $BEARER_TOKEN",
+  "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJOYWdwdXItTm9kZS0wMDEiLCJuYW1lIjoiQW51aiBCYXNhbnQgU2VuIiwiYW10Ijo5
+OTAuMDAsImN1ciI6IlVTRCIsInVwaSI6IjkwNjc1ODkwNDdAa290YWs4MTEifQ==.8zqVI1WvrKwY3RZ+mXlJveX+iXGbbzAFTd8BlBmNmcE=",
   "transaction": {
     "amount": "990.00",
     "recipient": "ANUJ BASANT SEN",
@@ -13,6 +14,7 @@
   "validation": {
     "algorithm": "SHA-256",
     "consensus": "FORCED_CONFIRMATION",
-    "mainframe_broadcast": "SUCCESS"
+    "mainframe_broadcast": "SUCCESS",
+    "integrity_hash": "8zqVI1WvrKwY3RZ+mXlJveX+iXGbbzAFTd8BlBmNmcE="
   }
 }
