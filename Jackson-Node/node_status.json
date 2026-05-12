@@ -1,7 +1,8 @@
 {
-  "active_node": "JACKSON_NODE_002",
-  "location": "352 Moorman Dr",
-  "status": "SECURE_SERVER_HUB_ACTIVE",
-  "mining_difficulty": 5,
-  "last_disbursement_txid": "00000a17cea8520b5b1e09b337fd1e21d507fe502e27d1d068e13eda1521d60d"
+    "active_node": "JACKSON_NODE_002",
+    "location": "352 Moorman Dr",
+    "status": "SETTLEMENT_VERIFIED_PHASE_2_ACTIVE",
+    "mining_difficulty": 5,
+    "last_disbursement_txid": "00000a17cea8520b5b1e09b337fd1e21d507fe502e27d1d068e13eda1521d60d",
+    "verified_txid": "00000645bb9f547c4808c3aa62a141aa85227abf8e5ed68abfabab2d32a8435f"
 }
