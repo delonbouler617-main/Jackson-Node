@@ -1,0 +1,12 @@
+{
+    "txid": "00000645bb9f547c4808c3aa62a141aa85227abf8e5ed68abfabab2d32a8435f",
+    "details": {
+        "origin": "MOTO_G_2026_MASTER",
+        "recipient": "13exxw5Tnxg5rgUqxSc3xRZ8yy9ZzeC37t",
+        "asset": "$3,150.00 USD",
+        "anchor": "47bd62e1313e958f93f56bbfc5f3284e2b46f3f45933a13330352854b5973553",
+        "timestamp": 1778545182.5057502
+    },
+    "status": "BROADCAST_COMPLETE",
+    "ledger": "GOOGLE_CLOUD_UNIVERSAL_LEDGER_GCUL"
+}
