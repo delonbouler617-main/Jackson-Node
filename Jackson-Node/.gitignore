@@ -1,0 +1,5 @@
+.cache/
+.bash_history
+.lesshst
+downloads/
+*.log
