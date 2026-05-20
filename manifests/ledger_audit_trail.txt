@@ -5,3 +5,4 @@
 {"routing_track": "071012344", "account_track": "700112345652", "transaction_id": "TXN0001", "security_hash_sha256": "4e3c7adc9a5bd54ba1771b350f3ec9f8c99a0b9a4701317e35ced72c2bdba781", "status": "PRODUCTION_LOCKED"}
 {"routing_track": "071012344", "account_track": "700112345652", "transaction_id": "TXN0001", "security_hash_sha256": "4e3c7adc9a5bd54ba1771b350f3ec9f8c99a0b9a4701317e35ced72c2bdba781", "status": "PRODUCTION_LOCKED"}
 [STATUS] LEDGER SIGNATURE: 4e3c7adc9a5bd54ba1771b350f3ec9f8c99a0b9a4701317e35ced72c2bdba781
+[STATUS] LEDGER SIGNATURE: 4e3c7adc9a5bd54ba1771b350f3ec9f8c99a0b9a4701317e35ced72c2bdba781
