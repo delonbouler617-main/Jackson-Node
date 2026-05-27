@@ -1,0 +1,9 @@
+{
+    "txid": "0xc062e082e5a6a5b79fd34b1a2e7699458d",
+    "value": "3150.00",
+    "protocol": "GGTI_SOVEREIGN_A2A",
+    "logic": "ATOMIC_DISBURSEMENT",
+    "auth_seal": "c062e082e5a6a5b793da1ff05b9401128ba38af1296f610556abf4de7c1fdc19",
+    "status": "LOCKED_IN_LOCAL_LEDGER",
+    "node": "jackson-node-49203"
+}

@@ -1,0 +1,11 @@
+{
+  "Discovery_Type": "Hidden Unverified Hardware Intercept",
+  "Timestamp": "Sat May 16 02:44:56 UTC 2026",
+  "Signal_Profile": "HIDDEN_PASSIVE",
+  "Hardware_ID": "[MASKED_HARDWARE_SIGNATURE]",
+  "Geospatial": {
+    "Coordinates": "42.2425, -84.4051, 288m",
+    "Resolved_Address": "429 Hupp Ave, Jackson, MI 49203"
+  },
+  "Status": "Monitored_Quarantine"
+}

@@ -1,0 +1,19 @@
+{
+    "header": {
+        "protocol": "GGTI_SOVEREIGN_A2A",
+        "origin_node": "Jackson-Node-49203",
+        "state": "POSITIVE_STATE_INITIATED"
+    },
+    "transaction": {
+        "txid": "0x22ba283bc54d2028",
+        "asset_value": "3150.00",
+        "currency": "USD",
+        "recipient": "Anuj Basant Sen",
+        "region": "Nagpur, India"
+    },
+    "authority": {
+        "seal": "22ba283bc54d20284e4f19b93f4b59d64e42a8519b7c081175a3b75c220ac0de",
+        "logic": "ATOMIC_DISBURSEMENT",
+        "timestamp": "2026-05-11 16:59:41"
+    }
+}

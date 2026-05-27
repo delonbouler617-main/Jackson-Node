@@ -1,0 +1,14 @@
+{
+  "Event_Timestamp": "Sat May 16 02:50:51 UTC 2026",
+  "Target_ID": "INV-2026-02",
+  "Hardware_Profile": {
+    "Signature": "Masked_WLAN_Array_HighGain",
+    "Interface_Vector": "RF_Mismatched_Overlay"
+  },
+  "Geospatial_Footprint": {
+    "XYZ": "32.5441, -117.0392, 45m",
+    "Resolved_Physical_Grid": "Otay Mesa / Tijuana-Jackson Node Intersection"
+  },
+  "Tracking_Status": "Active Silent Trace Routing",
+  "Alert_Deployment": "SILENT_TRACE"
+}

@@ -1,0 +1,3 @@
+source ~/Jackson-Node/ggti-init.sh
+alias ggti_status='echo "=== [GGTI] GLOBAL LINVASION STATUS ANALYSIS ===" && for script in airspace_mitigation_lockdown.sh telecomm_accessibility_shield.sh camera_face_intercept.sh adaptive_ambient_shield.sh input_shroud_shield.sh anti_cloning_intercept.sh identity_battery_shroud.sh; do if [ -x "./$script" ]; then echo "\n[RUNNING] $script..."; ./$script | grep -E "(TIMESTAMP|State|Status|ALERT|WARNING|SECURE|Enforced|LOCKED|CLEAN)"; else echo "\n[-] $script: Not Detected / Inactive"; fi; done && echo "\n============================================="'
+alias ggti='python3 ~/Jackson-Node/ggti_core.py'

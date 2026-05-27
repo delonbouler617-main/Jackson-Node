@@ -1,0 +1,18 @@
+{
+    "protocol": "GGTI_V3_INTERNATIONAL",
+    "origin": "JACKSON_NODE_49203",
+    "destination": "NAGPUR_NODE_GATEWAY_V3_INDIA",
+    "recipient_address": "13exxw5Tnxg5rgUqxSc3xRZ8yy9ZzeC37t",
+    "verified_hash": "000007f6694a9ea879b6694725ee3f4b6ec5d2f5a7227f5befb794f776805e90",
+    "liquidity_manifest": {
+        "gross": 3150.0,
+        "tax_offset_15pct": 472.5,
+        "spendable_net": 2677.5
+    },
+    "security": {
+        "difficulty": 5,
+        "nonce": 57862,
+        "timestamp": 1778556301.7514749
+    },
+    "status": "RELEASE_READY"
+}

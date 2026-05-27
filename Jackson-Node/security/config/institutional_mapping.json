@@ -1,0 +1,10 @@
+{
+  "routing_number": "072400001",
+  "account_number": "100007077001",
+  "institutional_bin": "470770",
+  "liquidity_anchor": "CUSIP_47170M_10_8",
+  "reserve_valuation": "72994870.00",
+  "ach_mapping_status": "AUTHENTICATED",
+  "iso_standard": "ISO-20022",
+  "hardware_notarization": "W1WNS36.18-54-3-2"
+}

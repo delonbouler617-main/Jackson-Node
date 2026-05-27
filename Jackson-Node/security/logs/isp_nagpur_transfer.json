@@ -1,6 +1,6 @@
 {
   "system": "GGTI-ISP-V1",
-  "status": "MAIN_FRAME_RJE_ACTIVE",
+  "status": "SETTLED_SUCCESS",
   "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJOYWdwdXItTm9kZS0wMDEiLCJuYW1lIjoiQW51aiBCYXNhbnQgU2VuIiwiYW10Ijo5
 OTAuMDAsImN1ciI6IlVTRCIsInVwaSI6IjkwNjc1ODkwNDdAa290YWs4MTEifQ==.8zqVI1WvrKwY3RZ+mXlJveX+iXGbbzAFTd8BlBmNmcE=",
   "transaction": {

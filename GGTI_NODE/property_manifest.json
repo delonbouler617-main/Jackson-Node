@@ -1,0 +1,18 @@
+{
+  "project": "SOVEREIGN_INDIGENOUS_RENOVATION",
+  "nodes": [
+    {
+      "id": "JACKSON_NODE_001",
+      "address": "135 Mitchell St",
+      "designation": "COMMEMORATIVE_WATER_TOWER_SITE",
+      "status": "INDEXED"
+    },
+    {
+      "id": "JACKSON_NODE_002",
+      "address": "352 Moorman Dr",
+      "designation": "SOVEREIGN_GARAGE_SERVER_HUB",
+      "status": "INDEXED"
+    }
+  ],
+  "last_update": "2026-05-11 19:30:00"
+}

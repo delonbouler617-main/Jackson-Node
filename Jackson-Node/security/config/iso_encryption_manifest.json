@@ -1,0 +1,7 @@
+{
+  "key_type": "MASTER_ENCRYPTION_KEY",
+  "protocol": "ISO-20022_AES_256",
+  "master_key_hash": "9e8fb6d23658ce2ec3c8d8f594896987ebe54ce5beb7f47d9cf4033cfbfddae8",
+  "hardware_bound_id": "W1WNS36.18-54-3-2",
+  "status": "READY_FOR_NFC_HANDSHAKE"
+}

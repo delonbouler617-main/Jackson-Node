@@ -1,0 +1,8 @@
+PROCESS: Thermal Depolymerization / Fermentation
+SOURCE: Rhizophora mangle (Red Mangrove)
+TARGET: Liquid Bio-Fuel for IC Engines
+STAGES:
+  1. Crushing/Hydration of Mangrove cellulose.
+  2. Enzymatic breakdown of lignin structures.
+  3. Distillation of ethanol/biodiesel compounds.
+  4. Integration with petroleum oil for standard engine compatibility.

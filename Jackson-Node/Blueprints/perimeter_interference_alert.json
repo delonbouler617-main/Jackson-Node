@@ -1,0 +1,13 @@
+{
+  "Alert_Type": "Interfering Dummy Device Alert",
+  "Timestamp": "Sat May 16 02:41:57 UTC 2026",
+  "Target_Hardware": "Unauthenticated Broadcast Overlay",
+  "Geospatial_Coordinates": {
+    "Latitude_X": "42.2425",
+    "Longitude_Y": "-84.4051",
+    "Elevation_Z": "288m"
+  },
+  "Resolved_Physical_Address": "429 Hupp Ave, Jackson, MI 49203",
+  "Sector_Zone": "Jackson-Node Alpha Perimeter Boundary",
+  "Status": "Isolated & Quarantined"
+}

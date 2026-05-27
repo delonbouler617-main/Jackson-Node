@@ -1,0 +1,8 @@
+NODE_ID: Mitchell-Node-Commemorative
+LOCATION: Mitchell St, Jackson, MI (Zip: 49203)
+INSCRIPTION_DATA:
+  "Dedicated to the First Nations who walked these lands. This node 
+   stands as a bridge between ancestral sovereignty and the digital 
+   future—a testament to the enduring spirit of the indigenous 
+   people of Jackson. From the earth to the apex, we remain connected."
+ARCHIVE_STATUS: Active Local Broadcast Base

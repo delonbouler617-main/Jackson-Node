@@ -1,0 +1,17 @@
+{
+  "Log_Timestamp": "Sat May 16 03:48:12 UTC 2026",
+  "Event_Trigger": {
+    "Hardware_Tap_Intercept": true,
+    "Keypad_Override_Sequence": "*, **, #"
+  },
+  "Geospatial_Data": {
+    "Target_Coordinates": "42.2458, -84.4014, 292m",
+    "Dispatched_Address": "135 Mitchell St Core Node, Jackson, MI 49203"
+  },
+  "Emergency_Routing_Targets": {
+    "Law_Enforcement_Dispatch": "Staged",
+    "Emergency_Medical_Services": "Staged",
+    "Fire_Rescue_Communications": "Staged"
+  },
+  "Network_Protocol_Class": "NG911_Compliant_Simulation"
+}

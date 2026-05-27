@@ -1,0 +1,11 @@
+{
+  "card_label": "BlackStone Gear-Heads Ops",
+  "pan": "4707701000070771",
+  "expiry": "05/31",
+  "cvv": "770",
+  "type": "NFC_ENABLED_EBIT",
+  "linked_account": "100007077001",
+  "allocation_limit": "100000.00",
+  "currency": "USD",
+  "status": "AWAITING_NFC_WRITE"
+}

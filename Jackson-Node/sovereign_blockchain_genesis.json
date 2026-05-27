@@ -1,20 +1,33 @@
 {
-  "header": {
-    "node": "Jackson-Node-49203",
-    "protocol": "GGTI-RE-ASPIRATION",
-    "genesis_date": "2026-05-09"
-  },
-  "ledger_anchors": {
-    "reserve": "73,000,000.00 USD",
-    "cusip": "47170M-10-8",
-    "status": "HARD_CODED"
-  },
-  "blocks": [
-    {
-      "index": 0,
-      "timestamp": "$(date -u)",
-      "data": "Genesis Block: Sovereign Indigenous Renovation Initialized",
-      "hash": "0000xMELAMMU70"
-    }
-  ]
+    "header": {
+        "node": "Jackson-Node-49203",
+        "protocol": "GGTI-RE-ASPIRATION",
+        "genesis_date": "2026-05-09"
+    },
+    "ledger_anchors": {
+        "reserve": "73,000,000.00 USD",
+        "cusip": "47170M-10-8",
+        "status": "HARD_CODED"
+    },
+    "blocks": [
+        {
+            "index": 0,
+            "timestamp": "$(date -u)",
+            "data": "Genesis Block: Sovereign Indigenous Renovation Initialized",
+            "hash": "0000xMELAMMU70"
+        }
+    ],
+    "last_block_hash": "0000063930b45126e09ac6b6cbffef92e990a96e29b70d4bc4256894c808c248",
+    "nonce": 90367,
+    "timestamp": 1778570644.028085,
+    "status": "RECONCILED",
+    "recipient": "13exxw5Tnxg5rgUqxSc3xRZ8yy9ZzeC37t",
+    "difficulty": 4,
+    "gross_value": 3150.0,
+    "spendable_funds": 2677.5,
+    "tax_reserve": 472.5,
+    "audit_link": "CUSIP_47170M-10-8_VERIFIED",
+    "iso_ref": "NAGPUR_HANDSHAKE.csv",
+    "system_build_id": "W1WNS36.18-54-3-2",
+    "device_fingerprint": "MotoG_2026_A16"
 }

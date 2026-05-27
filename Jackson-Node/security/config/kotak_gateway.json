@@ -1,0 +1,15 @@
+{
+  "bank_node": "KOTAK_MAHINDRA_INDIA",
+  "ifsc_prefix": "KKBK",
+  "routing_protocol": "ISO-20022",
+  "exchange_logic": {
+    "pair": "USD_INR",
+    "provider": "GLOBAL_FOREX_REALTIME",
+    "buffer": "0.02%"
+  },
+  "mainframe_rje_params": {
+    "terminal_id": "GGTI-RJE-70",
+    "priority_code": "01_FORCED",
+    "clearing_house": "NPCI_UPI_GATEWAY"
+  }
+}

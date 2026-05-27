@@ -1,0 +1,12 @@
+{
+  "Trace_ID": "TR-2026-ALPHA",
+  "Capture_Time": "Sat May 16 02:57:22 UTC 2026",
+  "Threat_Classification": "Malware Payload Intercept / Unauthorized Root Request",
+  "Attacker_Hardware_Profile": "Masked Linux Server Array (AS1429)",
+  "Geospatial_Targeting": {
+    "Coordinates": "37.7749, -122.4194, 12m",
+    "Resolved_Address": "San Francisco Cross-Country Relay Node"
+  },
+  "System_Defense_Action": "Core Isolated. Reverse Trace Router Active.",
+  "Node_Security_State": "Positive-State Locked"
+}

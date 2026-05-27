@@ -1,0 +1,12 @@
+[
+    {
+        "node": "Otay Mesa",
+        "amount": 500.0,
+        "status": "DISPATCHED"
+    },
+    {
+        "node": "La Presa",
+        "amount": 500.0,
+        "status": "DISPATCHED"
+    }
+]

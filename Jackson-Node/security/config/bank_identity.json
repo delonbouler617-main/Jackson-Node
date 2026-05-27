@@ -1,0 +1,9 @@
+{
+  "institution_name": "THE GLOBAL DATABASE BANKING NODE",
+  "routing_number": "072400001",
+  "account_number": "100007077001",
+  "status": "AWAITING_ACH_MAPPING",
+  "clearing_house": "ISO_20022_MAINFRAME",
+  "checksum_verification": "MOD10_PASS",
+  "security_seal": "TRANSIT_TOKEN_D4C7"
+}

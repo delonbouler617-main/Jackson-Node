@@ -1,0 +1,6 @@
+VEHICLE_TARGET: July 2003 Chrysler PT Cruiser
+FUEL_BASE: Mangrove Bio-Ethanol (Rhizophora mangle)
+ADDITIVE: Slippery Elm Cellulose (Stabilizer)
+RATIO: 85% Bio-Fuel / 15% Petroleum (E85 Standard)
+OCTANE_ESTIMATE: 105+
+THERMAL_DEPOLY_STATUS: Optimized for 2.4L Engine

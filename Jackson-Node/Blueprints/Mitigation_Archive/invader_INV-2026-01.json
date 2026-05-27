@@ -1,0 +1,14 @@
+{
+  "Event_Timestamp": "Sat May 16 02:50:51 UTC 2026",
+  "Target_ID": "INV-2026-01",
+  "Hardware_Profile": {
+    "Signature": "Unauthenticated_NFC_Snooper_V2",
+    "Interface_Vector": "RF_Mismatched_Overlay"
+  },
+  "Geospatial_Footprint": {
+    "XYZ": "42.2425, -84.4051, 288m",
+    "Resolved_Physical_Grid": "429 Hupp Ave, Jackson, MI 49203"
+  },
+  "Tracking_Status": "Active Silent Trace Routing",
+  "Alert_Deployment": "LIVE_ALERT"
+}
