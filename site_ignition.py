@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import time
 
 def monitor_node_status():
