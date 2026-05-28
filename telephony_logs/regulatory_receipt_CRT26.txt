@@ -1,0 +1,12 @@
+================================================================================
+          GGTI OFFICIAL REGULATORY REGISTRY: NOTARIZATION INTAKE
+================================================================================
+TIMESTAMP          : 2026-05-28
+REGULATORY AGENCY  : COMISIÓN REGULADORA DE TELECOMUNICACIONES
+FOLIO NUMBER       : CRT26-019580
+SYSTEM TARGET      : SATyS / INSTITUTIONAL MANAGEMENT CONTROL
+ROUTING IDENTIFIER : ATT! 15.7 khz here
+DATA VOLUME        : 1 EMAIL / 0 SEPARATE ATTACHMENTS
+--------------------------------------------------------------------------------
+STATUS             : OFFICIALLY RECEIVED & ASSIGNED FOR ADMINISTRATIVE TRACKING
+================================================================================
