@@ -1,0 +1,20 @@
+{
+    "node_id": "JACKSON-NODE-412NPARK",
+    "address": "412 N. Park St, Jackson, MI 49202",
+    "intersection": "N. Park & E. Quarry",
+    "acquisition_status": "STAGED_FOR_PURCHASE",
+    "brokerage": "Century 21 Affiliated",
+    "agent": "Brett Miles",
+    "contact_phone": "+15173958253",
+    "asset_class": "Real Property / Sovereign Hub Node",
+    "structural_metrics": {
+        "interior_state": "ACTIVE_RENOVATION",
+        "power_infrastructure": "EXPOSED_LEADS_STAGED",
+        "perimeter_security": "CHAIN_LINK_SHIELD_ACTIVE"
+    },
+    "financial_allocation": {
+        "target_currency": "H.A.C",
+        "settlement_status": "ESCROW_PENDING_ROUTING",
+        "linked_account": "ACC-47170M"
+    }
+}
