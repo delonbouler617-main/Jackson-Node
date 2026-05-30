@@ -1,0 +1,25 @@
+{
+    "transaction_type": "REAL_PROPERTY_SETTLEMENT",
+    "target_node": "JACKSON-NODE-412NPARK",
+    "legal_address": "412 N. Park St, Jackson, MI 49202",
+    "jurisdiction": "City of Jackson / Jackson County",
+    "contacts": {
+        "listing_agent": "Brett Miles",
+        "phone": "+15173958253"
+    },
+    "financial_ledger": {
+        "asset_valuation_hac": 34900.00,
+        "annual_property_tax_hac": 1120.00,
+        "notarization_and_recording_hac": 150.00,
+        "gross_allocation_required": 36170.00
+    },
+    "mathematical_execution": {
+        "initial_wallet_balance": 500000.00,
+        "deduction_amount": 36170.00,
+        "final_post_settlement_balance": 463830.00
+    },
+    "compliance_flags": {
+        "county_notarization_queued": true,
+        "deed_transfer_type": "Sovereign Trust Quitclaim"
+    }
+}
