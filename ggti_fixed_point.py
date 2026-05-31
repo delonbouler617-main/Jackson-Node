@@ -43,7 +43,7 @@ class GGTIFinancialValidator:
 
 if __name__ == "__main__":
     # Initializing with standard 64-bit integer space identifiers
-    GOOGLE_DEVICE_WALLET_ID = 550392 
+    GOOGLE_DEVICE_WALLET_ID =  
     TARGET_PARCEL_ID = 4123958
     
     validator = GGTIFinancialValidator(GOOGLE_DEVICE_WALLET_ID)
