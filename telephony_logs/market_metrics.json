@@ -1,0 +1,6 @@
+{
+    "system_supply_cap_subunits": 5000000000,
+    "circulating_supply_subunits": 500000000,
+    "demand_index_ratio": 1.25,
+    "total_losses_subunits": 0
+}
