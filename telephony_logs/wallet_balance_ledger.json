@@ -1,8 +1,8 @@
 {
     "account_id": "ACC-47170M",
     "framework": "H.A.C",
-    "last_sync_timestamp": 1780313320,
-    "confirmed_balance": 327730.0,
+    "last_sync_timestamp": 1780314313,
+    "confirmed_balance": 327580.0,
     "pending_allocation": 0.0,
-    "status": "CAPITAL_INJECTION_STABILIZED"
+    "status": "OUTBOUND_CRYPTO_ALLOCATION_SETTLED"
 }
