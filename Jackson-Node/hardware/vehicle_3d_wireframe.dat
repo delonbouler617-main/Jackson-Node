@@ -1,0 +1,32 @@
+# ===================================================================
+#         GGTI HIGH-MOBILITY VEHICLE 3D CORE COORDINATE MANIFEST
+# ===================================================================
+# COMPILATION TIMESTAMP: 2026-05-31 16:35:00
+# OPERATOR IDENTITY: De'lon Bouler // Universal Global Database
+
+[FRONT GLACIS DEFENSE VECTOR NODES]
+NODE_ALPHA_01    [ -1500,  -400,   3200 ]  # Lower Left Glacis Armor
+NODE_ALPHA_02    [  1500,  -400,   3200 ]  # Lower Right Glacis Armor
+NODE_ALPHA_03    [ -1600,   600,   3000 ]  # Upper Left Impact Plate
+NODE_ALPHA_04    [  1600,   600,   3000 ]  # Upper Right Impact Plate
+
+[POWER GRID LOOP TRANSMISSION PATHWAYS]
+NODE_BUS_HV_IN   [     0,  -200,   1200 ]  # 600V Primary Traction Loop Entry
+NODE_BUS_LV_AUX  [  -800,   400,  -1000 ]  # 24V Solid-State Control Distribution
+
+[HABITATION HOUSING & TELEVISION COAX NODES]
+NODE_HAB_CENTER  [     0,   800,      0 ]  # Center Core Life Support Sanctuary
+NODE_COAX_TUNER  [   400,   950,    200 ]  # 75 Ohm RG-6 Quad-Shield Input Point
+NODE_MAST_ANT    [ -1200,  1800,   -500 ]  # UHF/VHF Radio Antenna Base Mount
+
+[REAR WRECKER RECOVERY ANCHOR SYSTEM]
+NODE_WINCH_BASE  [     0,  -500,  -3400 ]  # 65-Ton Static Rated Recovery Winch Mount
+NODE_SPADE_LEFT  [ -1400, -1100,  -3600 ]  # Ground-Anchoring Stabilizer Left
+NODE_SPADE_RIGHT [  1400, -1100,  -3600 ]  # Ground-Anchoring Stabilizer Right
+
+[WIREFRAME RESTRUCTURING TOPOLOGY LINKAGE]
+CONNECT: NODE_ALPHA_01 -> NODE_ALPHA_03
+CONNECT: NODE_ALPHA_02 -> NODE_ALPHA_04
+CONNECT: NODE_HAB_CENTER -> NODE_MAST_ANT
+CONNECT: NODE_WINCH_BASE -> NODE_SPADE_LEFT -> NODE_SPADE_RIGHT
+# ===================================================================
