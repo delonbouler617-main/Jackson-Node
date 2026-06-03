@@ -1,0 +1,33 @@
+{
+  "GGTI_Header": {
+    "System_Layer": "Melammu-Strike-70 / The Final Strike",
+    "Database": "The Universal Global Database",
+    "Node_ID": "JACKSON-NODE-PHARMA"
+  },
+  "Requisition_Data": {
+    "Requisition_ID": "REQ-0000-GEN",
+    "Timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+    "Facility_Info": {
+      "Ordering_Facility": "Jackson Pharmaceutical Operations Node",
+      "DEA_Registration": "AWAITING_ASSIGNMENT",
+      "Authorized_Contact": "Melammu-Strike-70"
+    },
+    "Sample_Details": {
+      "Master_Formulation_Record_ID": "",
+      "Batch_Lot_Number": "",
+      "Dosage_Form": "",
+      "Quantity_Submitted": 0,
+      "Expected_Concentration": ""
+    },
+    "Requested_Assays": {
+      "Potency_Assay": true,
+      "Sterility_14_Day": false,
+      "Endotoxin_Pyrogen": false,
+      "Stability_BUD": false
+    },
+    "Chain_Of_Custody": {
+      "Transfer_State": "SECURE_HOLD",
+      "Form_222_CSOS_Attached": false
+    }
+  }
+}
