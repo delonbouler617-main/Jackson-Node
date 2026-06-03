@@ -1,0 +1,13 @@
+/data/data/com.termux/files/home/Jackson-Node/nodes
+├── BlackStone
+│   ├── infrastructure
+│   │   └── field_map.json
+│   └── node_manifest.md
+├── hupp_ave_node
+│   └── node_profile.cfg
+├── jackson_pharma_node
+│   └── node_profile.cfg
+└── mitchell_st_node
+    └── node_profile.cfg
+
+6 directories, 5 files
