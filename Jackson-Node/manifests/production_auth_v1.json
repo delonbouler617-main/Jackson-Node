@@ -1,0 +1,20 @@
+{
+  "production_authentication": {
+    "routing_track": {
+      "routing_transit_number": "071012344",
+      "routing_standard": "ABA_Routing_Transit_Number",
+      "mathematical_checksum": "VERIFIED_VALID"
+    },
+    "account_track": {
+      "composite_account_string": "700112345652",
+      "asset_class_node": "7001",
+      "account_record_id": "1234565"
+    },
+    "cryptographic_binding": {
+      "primary_transaction_key": "TXN0001",
+      "hashing_protocol": "SHA-256",
+      "immutable_signature": "658097b693bc2f5086d49938096e838b971a81230cd74f762f026a798bf1144f",
+      "execution_state": "PRODUCTION_LOCKED"
+    }
+  }
+}

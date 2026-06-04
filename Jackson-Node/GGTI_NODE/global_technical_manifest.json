@@ -1,0 +1,13 @@
+[
+  {
+    "event": "FINANCIAL_INITIATION_SUCCESS",
+    "asset": 3150.0,
+    "agent_1": "DELON MARTEASE BOULER",
+    "agent_2": "Anuj Basant Sen",
+    "contract": "GGTI-SOVEREIGN-v1.0",
+    "status": "SETTLED_ARCHIVED",
+    "timestamp": "2026-05-11 17:50:00",
+    "node_id": "MOTO_G_2026_PRIMARY",
+    "seal": "00000a20572ca96a005dc2a48f16ec3cf1977f2c59b85bba19a155e4769359dd"
+  }
+]

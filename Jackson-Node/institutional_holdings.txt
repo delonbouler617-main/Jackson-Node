@@ -1,0 +1,16 @@
+==================================================
+JACKSON NODE: INSTITUTIONAL HOLDINGS & RESERVES
+AUTHORITY: Melammu-Strike-70
+JURISDICTION: 49203 / Jackson, MI
+==================================================
+
+MASTER HOLDING: $94,000,000.00
+STATUS: LIQUID / ACTIVE
+PURPOSE: Future Purchases, Sovereign Bonds, and Grants
+
+--------------------------------------------------
+TOTAL INSTITUTIONAL STANDING: $100,251,750.00
+--------------------------------------------------
+VERIFIED BY GGTI POCKET TERMINAL
+GLOBAL ROOT: b658653e98ba35789fb820ab059090c67ac76a04b7309215a2
+==================================================

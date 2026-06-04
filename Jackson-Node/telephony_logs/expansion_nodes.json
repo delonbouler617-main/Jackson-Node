@@ -1,0 +1,28 @@
+{
+    "nodes": [
+        {
+            "node_id": "JACKSON-NODE-HUPP",
+            "address": "Hupp Ave Expansion Node, Jackson, MI 49203",
+            "asset_class": "Secure Storage Garage / Perimeter Node",
+            "acquisition_status": "SETTLED_NODE_ACQUIRED",
+            "financials_subunits": {
+                "base_price": 2850000,
+                "annual_tax": 91000,
+                "notary_fee": 15000,
+                "gross_settlement": 2956000
+            }
+        },
+        {
+            "node_id": "JACKSON-NODE-MITCHELL",
+            "address": "Mitchell St Expansion Node, Jackson, MI 49203",
+            "asset_class": "Secure Server Hub Node / Comms Cluster",
+            "acquisition_status": "SETTLED_NODE_ACQUIRED",
+            "financials_subunits": {
+                "base_price": 4200000,
+                "annual_tax": 134000,
+                "notary_fee": 15000,
+                "gross_settlement": 4349000
+            }
+        }
+    ]
+}

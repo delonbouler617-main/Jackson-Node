@@ -1,0 +1,19 @@
+==================================================
+JACKSON NODE: INSTITUTIONAL GRANT AWARD
+GRANT ID: GNT-2026-003
+==================================================
+
+PROJECT: Sovereign Garage Security Hub
+LOCATION: Moorman Dr Site (Jackson, MI)
+ISSUER: Melammu-Strike-70 (The Global Database)
+AMOUNT: $2,250,750.00
+
+TERMS & CONDITIONS:
+1. Funds used for biometric access control and server redundancy.
+2. Hardening of the GGTI Terminal physical entry point.
+3. Integration with the Global Database root verification.
+
+--------------------------------------------------
+STATUS: COMMITTED & DISBURSED
+AUTHORITY SEAL: b658653e98ba35789fb820ab059090c67ac76a04b7309215a2
+==================================================

@@ -1,8 +1,7 @@
 {
   "node_id": "Jackson-Node-49203",
-  "hardware_id": "Moto-G-2026-W1WNS36",
+  "card_label": "BlackStone Gear-Heads Ops",
   "allocation_limit": 100000.00,
-  "current_balance": 100000.00,
-  "status": "HARDWARE_BOUND_ACTIVE",
-  "last_sync": "Tue May 12 18:13:11 EDT 2026"
+  "available_balance": 100000.00,
+  "status": "HARDWARE_BOUND_ACTIVE"
 }

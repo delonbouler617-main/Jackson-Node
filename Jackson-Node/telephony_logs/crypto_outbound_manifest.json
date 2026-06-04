@@ -1,0 +1,8 @@
+{
+    "network": "Ethereum (ETH)",
+    "target_address": "0x0a99A4e48DA8B35175b52EAC7B3154B3d13aBE98",
+    "amount_usd_equivalent": 150.0,
+    "amount_subunits": 15000,
+    "timestamp_epoch": 1780314313,
+    "status": "STAGED_FOR_BROADCAST"
+}

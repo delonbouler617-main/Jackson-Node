@@ -1,0 +1,5 @@
+isrc,consumption_year,platform,territory,raw_streams,track_title,release_year,album,base_rate,reported_streams,amount_paid,expected_payout,shortfall_amount,stream_deficit
+USUMG1800099,2018,SPOTIFY,US,5000000,Debut Classics,2018,First Impressions,0.0052,4500000,23400.0,26000.0,2600.0,500000
+USUMG1800099,2019,SPOTIFY,US,4000000,Debut Classics,2018,First Impressions,0.0048,3800000,18240.0,19200.0,960.0,200000
+USUMG2200054,2022,SPOTIFY,US,8000000,Mid-Career Anthem,2022,The Turning Point,0.004,8000000,32000.0,32000.0,0.0,0
+USUMG2600001,2026,SPOTIFY,US,2000000,Ice Realities,2026,Iceman,0.0035,1800000,6300.0,7000.0,700.0,200000
