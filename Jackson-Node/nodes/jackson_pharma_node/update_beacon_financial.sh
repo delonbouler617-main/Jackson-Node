@@ -1,0 +1,6 @@
+#!/bin/bash
+# ADD FINANCIAL STATUS TO TELEMETRY BEACON
+LOG_FILE="$HOME/Jackson-Node/nodes/jackson_pharma_node/public_dispatch_feed.log"
+TIMESTAMP=$(date +"%Y-%m-%dT%H:%M:%S%z")
+
+echo "[$TIMESTAMP] | NODE: JACKSON-NODE-PHARMA | FINANCIAL_STATUS: [CAPITAL_ALLOCATIONS_AT_STAKE] | ALERT: SITE_PROTECTION_MANDATORY" >> "$LOG_FILE"
