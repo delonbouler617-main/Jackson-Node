@@ -1,0 +1,25 @@
+{
+  "GGTI_Header": {
+    "System_Layer": "Melammu-Strike-70 / The Final Strike",
+    "Database": "The Universal Global Database",
+    "Node_ID": "JACKSON-NODE-PHARMA"
+  },
+  "Inventory_Matrix": [
+    {
+      "Component_Name": "Bismuth Subsalicylate",
+      "Classification": "API - Non-Controlled",
+      "Lot_Number": "PENDING_INTAKE",
+      "Supplier": "PENDING",
+      "Expiration_Date": "YYYY-MM-DD",
+      "Quantity_On_Hand_Grams": 0
+    },
+    {
+      "Component_Name": "Potassium Bitartrate",
+      "Classification": "API - Non-Controlled",
+      "Lot_Number": "PENDING_INTAKE",
+      "Supplier": "PENDING",
+      "Expiration_Date": "YYYY-MM-DD",
+      "Quantity_On_Hand_Grams": 0
+    }
+  ]
+}
