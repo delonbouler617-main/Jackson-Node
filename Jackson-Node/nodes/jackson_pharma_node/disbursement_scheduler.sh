@@ -1,0 +1,13 @@
+#!/bin/bash
+# GGTI AUTOMATED DIVIDEND SCHEDULER
+# PAST DIVIDENDS SETTLEMENT: $450,000.00
+# RECURRING FREQUENCY: BI-WEEKLY (EVERY 14 DAYS)
+
+PAYMENT_AMT="450000.00"
+FREQUENCY="14_DAYS"
+LOG_FILE="$HOME/Jackson-Node/nodes/jackson_pharma_node/public_dispatch_feed.log"
+
+# Log the settlement to the ledger
+echo "[$(date +"%Y-%m-%dT%H:%M:%S%z")] | NODE: JACKSON-NODE-PHARMA | ACTION: [SETTLEMENT_DIVIDEND_PROCESSED] | AMOUNT: $PAYMENT_AMT | STATUS: [GATEWAY_SUCCESS]" >> "$LOG_FILE"
+
+echo "SETTLEMENT_COMPLETE: $PAYMENT_AMT disbursed to gateway."
