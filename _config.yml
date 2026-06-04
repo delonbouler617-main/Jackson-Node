@@ -1,0 +1,6 @@
+title: Jackson-Node
+theme: jekyll-theme-primer
+exclude:
+  - storage/
+  - Gemfile
+  - Gemfile.lock
