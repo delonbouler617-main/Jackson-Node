@@ -1,0 +1,6 @@
+asset_id,primary_platform,verified_volume,reported_volume,track_title,era_year,technical_format,statutory_contract_rate,expected_gross_payout,actual_payout_received,isolated_shortfall
+LONO-LEG-08,MYSPACE_MUSIC,1200000,0,MySpace Session Primer (Audition Export),2008,Adobe Audition MP3,0.0091,10920.0,0.0,10920.0
+LONO-LEG-09,EARLY_WEB_ARCHIVE,450000,0,Pro Tools SE Vault Track,2009,Pro Tools Master WAV,0.0091,4095.0,0.0,4095.0
+LONO-AUD-20,YOUTUBE_MUSIC,3500000,3100000,Legacy Anthems (O-Originals),2020,DSP Digital Transcode,0.0042,14700.0,13020.0,1680.0
+LONO-AUD-22,YOUTUBE_MUSIC,5000000,4200000,Longevity Beats (The Final Strike Mix),2022,DSP Digital Transcode,0.0038,19000.0,15960.0,3040.0
+LONO-GATE-24,MUSIC_GATEWAY_POOL,1200000,1200000,The Uncompromised Wave (MusicGateway Sync),2024,Aggregator Waveform,0.0035,4200.0,4200.0,0.0
