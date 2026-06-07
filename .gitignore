@@ -1,0 +1,4 @@
+token_loop.sh
+*.log
+config.env
+

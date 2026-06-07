@@ -1,0 +1,12 @@
+name: GGTI Node Heartbeat
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Integrity Check
+        run: |
+          chmod +x ./generate_purchase_dossier.sh
+          ./generate_purchase_dossier.sh
+

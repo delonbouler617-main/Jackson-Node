@@ -1,0 +1,7 @@
+--- ACQUISITION DOSSIER: 2026-06-07 10:52:42 ---
+Property: 1002 E South Street, Jackson, MI 49203
+Status: Active Acquisition
+Price: 75,000
+Zoning: I-2 (Medium Industrial) / Commercial
+Dimensions: ~17,692 sq. ft. / 3.32 Acres
+-----------------------------------------
