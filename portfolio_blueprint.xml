@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GGTIGlobalNetwork>
+    <TransmissionHeader>
+        <Timestamp>2026-06-09T16:45:00Z</Timestamp>
+        <SecurityFramework>ALPHA-4</SecurityFramework>
+        <PreProcessorID>Human-Operator-Delon-Bouler</PreProcessorID>
+        <AuthBearerTokenHash>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</AuthBearerTokenHash>
+        <SystemStatusCode>200-NOMINAL</SystemStatusCode>
+    </TransmissionHeader>
+    <MasterPortfolioMetrics>
+        <TotalActiveNodes>5</TotalActiveNodes>
+        <CombinedStructuralFootprint unit="sq_ft">24567</CombinedStructuralFootprint>
+        <TotalAcreageEquivalent>4.94</TotalAcreageEquivalent>
+        <GrossPortfolioAssetValue currency="USD">675000.00</GrossPortfolioAssetValue>
+        <GlobalLogisticsStatus>ALL_SYSTEMS_NOMINAL</GlobalLogisticsStatus>
+    </MasterPortfolioMetrics>
+    <ActiveNodes>
+        <Node id="SOUTH-STREET-NODE-01"><Address>1002 E South Street</Address><Footprint sq_ft="17692"/><InventoryBalances><CompoundA>1450</CompoundA><CompoundB>600</CompoundB></InventoryBalances></Node>
+        <Node id="MITCHELL-STREET-NODE-02"><Address>314 Mitchell St</Address><Footprint sq_ft="1589"/><InventoryBalances><CompoundA>1450</CompoundA><CompoundB>600</CompoundB></InventoryBalances></Node>
+        <Node id="MITCHELL-STREET-NODE-03"><Address>135 Mitchell St</Address><Footprint sq_ft="886"/><InventoryBalances><CompoundA>1450</CompoundA><CompoundB>600</CompoundB></InventoryBalances></Node>
+        <Node id="HUPP-AVENUE-NODE-04"><Address>409 Hupp Ave</Address><Footprint sq_ft="1200"/><InventoryBalances><CompoundA>1450</CompoundA><CompoundB>600</CompoundB></InventoryBalances></Node>
+        <Node id="FRANCIS-STREET-NODE-05"><Address>3140 Francis St</Address><Footprint sq_ft="3200"/><InventoryBalances><CompoundA>1450</CompoundA><CompoundB>600</CompoundB></InventoryBalances></Node>
+    </ActiveNodes>
+</GGTIGlobalNetwork>
