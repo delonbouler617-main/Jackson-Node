@@ -1,8 +1,8 @@
 ================================================================================
 GGTI LOCAL SPECIFICATION DOSSIER: 2026-06-09 13:37:47
 ================================================================================
-Node Key:     south_street_node
-Location:     1002 E South Street, Jackson, MI 49203
+Node Key:     hupp_ave_409
+Location:     409 Hupp Ave, Jackson, MI 49203
 Status:       [PROVISIONED / ACTIVE]
 --------------------------------------------------------------------------------
 ALLOCATED MATERIAL VOLUMES:
