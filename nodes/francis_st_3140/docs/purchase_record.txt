@@ -1,0 +1,12 @@
+================================================================================
+GGTI LOCAL SPECIFICATION DOSSIER: 2026-06-09 14:03:32
+================================================================================
+Node Key:     francis_st_3140
+Location:     3140 Francis St, Jackson, MI 49203
+Structure:    Commercial Office / Retail Core (~3,200 sq. ft.)
+Status:       [PROVISIONED / ACTIVE FINAL COMPOUND]
+--------------------------------------------------------------------------------
+ALLOCATED MATERIAL VOLUMES:
+  - Compound A (Raw Base):      1,450 L
+  - Compound B (Stabilizer):    450 L
+================================================================================
