@@ -1,14 +1,4 @@
-# GGTI Jackson-Node: Institutional Ledger Summary
-## Date: 2026-05-09
-## Status: RESONANT
-
-| Parameter | Value |
-| :--- | :--- |
-| **Initial Reserve** | $73,000,000.00 |
-| **Current Disbursement** | ($3,150.00) |
-| **Target Address** | 13exxw5Tnxg5rgUqxSc3xRZ8yy9ZzeC37t |
-| **Adjusted Balance** | $72,996,850.00 |
-
-## Verification
-- Hash Alignment: SUCCESS
-- Bridge Status: POSITIVE-STATE ACTIVE
+[Sat May  9 21:00:54 UTC 2026] AR_ENGINE | INFLOW: 73,000,000.00 | SOURCE: Sovereign_Reserve | STATUS: POSTED_TO_LEDGER
+[Sat May  9 21:00:54 UTC 2026] AP_ENGINE | OUTFLOW: 3,150.00 | TARGET: Node_13exxw5 | STATUS: RECONCILED_&_CLOSED
+[Sat May  9 21:00:54 UTC 2026] AP_ENGINE | OUTFLOW: 250.00 | TARGET: Nagpur_Node | STATUS: RECONCILED_&_CLOSED
+[Sat May  9 21:00:54 UTC 2026] AP_ENGINE | OUTFLOW: Settlement | TARGET: Hupp_409_429 | STATUS: RECONCILED_&_CLOSED

@@ -1,5 +1,7 @@
 [user]
-	name = delonbouler617-main
-	email = delonmarteasebouler@gmail.com
+	name = Delon Bouler
+	email = delonbouler617@gmail.com
 [http]
 	sslVerify = true
+[credential]
+	helper = store

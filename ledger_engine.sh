@@ -1,37 +1,30 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/bin/bash
 
-# --- GGTI TRANSACTION ENGINE: V1.1 ---
-# Node: Jackson, MI (49203)
-# Protocol: AR/AP Automated Reconciliation
+log_transaction() {
+    local TYPE="$1"
+    local ENTITY="$2"
+    local AMOUNT="$3"
+    local DESC="$4"
 
-LEDGER_FILE="transaction_history.log"
+    echo "$(date '+%Y-%m-%d %H:%M:%S') | $TYPE | $ENTITY | $AMOUNT | $DESC" >> ledger_db.txt
 
-function calculate_balance() {
-    echo "--- CALCULATING INSTITUTIONAL LIQUIDITY ---"
-    
-    # Extract and sum Accounts Receivable (Incoming)
-    AR_TOTAL=$(grep "| TYPE:AR |" $LEDGER_FILE | awk -F'| AMT:' '{print $2}' | awk -F' |' '{print $1}' | sed 's/,//g' | awk '{sum+=$1} END {print sum}')
-    
-    # Extract and sum Accounts Payable (Outgoing)
-    AP_TOTAL=$(grep "| TYPE:AP |" $LEDGER_FILE | awk -F'| AMT:' '{print $2}' | awk -F' |' '{print $1}' | sed 's/,//g' | awk '{sum+=$1} END {print sum}')
-    
-    # Calculate Net Balance
-    NET_BALANCE=$(($AR_TOTAL - $AP_TOTAL))
-    
-    echo "Total Accounts Receivable : \$${AR_TOTAL:-0}"
-    echo "Total Accounts Payable    : \$${AP_TOTAL:-0}"
-    echo "--------------------------------------------"
-    echo "NET INSTITUTIONAL BALANCE : \$${NET_BALANCE:-0}"
-    echo "--------------------------------------------"
+    curl -s -X POST http://localhost:5000/api/endpoint \
+         -H "Content-Type: application/json" \
+         -d "{
+           \"type\": \"$TYPE\",
+           \"entity\": \"$ENTITY\",
+           \"amount\": \"$AMOUNT\",
+           \"description\": \"$DESC\"
+         }" > /dev/null
+
+    echo -e "\n[+] Recorded locally and posted to API."
 }
 
-function log_transaction() {
-    TYPE=$1 ENTITY=$2 AMOUNT=$3 DESC=$4
-    TIMESTAMP=$(date "+%Y-%m-%d %H:%M:%S")
-    TX_ID=$(echo "$TIMESTAMP$ENTITY$AMOUNT" | sha256sum | cut -c1-12)
-
-    echo "[$TIMESTAMP] TXID:$TX_ID | TYPE:$TYPE | ENTITY:$ENTITY | AMT:$AMOUNT | DESC:$DESC" >> $LEDGER_FILE
-    echo "--- TRANSACTION SEALED: $TX_ID ---"
+calculate_balance() {
+    echo -e "\n--- FETCHING BALANCES & RECONCILIATION ---"
+    response=$(curl -s http://localhost:5000/api/balance)
+    echo "$response" | python3 -m json.tool 2>/dev/null || echo "$response"
+    echo -e "\n----------------------------------------"
 }
 
 echo "--- JACKSON NODE FINANCIAL GATEWAY ---"
@@ -46,4 +39,3 @@ case $OP in
     3) calculate_balance ;;
     *) echo "Invalid Node Command." ;;
 esac
-

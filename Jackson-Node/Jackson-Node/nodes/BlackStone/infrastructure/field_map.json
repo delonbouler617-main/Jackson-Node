@@ -1,7 +1,0 @@
-{
-  "node": "BlackStone-Node-002",
-  "coordinates": "Blackstone Neighborhood Grid",
-  "assets": ["Gear-Heads Field", "Pistons Arena"],
-  "power_source": "Jackson-Node-Central",
-  "status": "STAGED"
-}
