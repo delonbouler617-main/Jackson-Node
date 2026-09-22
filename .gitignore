@@ -3,3 +3,5 @@ token_loop.sh
 config.env
 
 episodes/
+episodes/
+logs/
