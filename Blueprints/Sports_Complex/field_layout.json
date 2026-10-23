@@ -1,0 +1,13 @@
+{
+  "Facility_Name": "The BlackStone Pistons Sports Complex",
+  "Target_Location": "Jackson-Node Sector",
+  "Structural_Assets": {
+    "Primary_Field": "Regulation Football Gridiron",
+    "Spectator_Zones": "Flank Perimeter Seating",
+    "Equipment_Storage": "Sovereign Infrastructure Node"
+  },
+  "Team_Roster_Registry": [
+    "The BlackStone Pistons",
+    "The BlackStone Gear-Heads"
+  ]
+}

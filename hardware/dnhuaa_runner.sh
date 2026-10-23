@@ -18,3 +18,5 @@ echo "[DNHUAA] Initializing perpetual background process: $COMMAND"
 PID=$!
 echo "[DNHUAA] Process locked under PID: $PID"
 echo "$PID" > "$HOME/Jackson-Node/logs/dnhuaa_current.pid"
+python3 -c "import time; print(f'[EPHEMERIS] {time.time()}')" >> logs/dnhuaa_perpetual.log
+python3 -c "import time; print(f'[EPHEMERIS] {time.time()}')" >> logs/dnhuaa_perpetual.log

@@ -1,53 +1,22 @@
-#!/usr/bin/env python3
-import os
-import json
-import time
-from datetime import datetime
+import math, time
 
-MANIFEST_PATH = os.path.expanduser("~/Jackson-Node/episodes/digital_world_ep1/episode_1_manifest.json")
-
-def load_manifest():
-    if os.path.exists(MANIFEST_PATH):
-        with open(MANIFEST_PATH, 'r') as f:
-            return json.load(f)
-    return {"status": "UNKNOWN"}
-
-def run_fps_loop():
-    print("==========================================================")
-    print(" DIGITAL WORLD: FPS ENGINE + DNHUAA SUN/MOON BRIDGE")
-    print("==========================================================")
-
-    manifest = load_manifest()
-    episode_title = manifest.get("episode", {}).get("title", "Digital World")
-    ep_num = manifest.get("episode", {}).get("episode_number", 1)
-    telemetry_type = manifest.get("episode", {}).get("telemetry", {}).get("celestial_engine", "UNKNOWN")
-
-    print(f"[ENGINE LINK] Episode {ep_num}: {episode_title}")
-    print(f"[ENGINE LINK] Telemetry Engine: {telemetry_type}")
-    print("[ENGINE LINK] Streaming real-time telemetry loop (60 FPS tick)...")
-    print("----------------------------------------------------------")
-
-    frame = 0
-    try:
-        while True:
-            frame += 1
-            # Real-time radar sweep angle (0° - 360°)
-            radar_angle = (frame * 6) % 360
-            
-            # Sun & Moon orbital telemetry calculation
-            sun_angle = (frame * 0.25) % 360.0
-            moon_angle = (sun_angle + 180.0) % 360.0
-            
-            # Formatted live telemetry output
-            status_line = (
-                f"\r[FRAME {frame:06d}] RADAR: {radar_angle:03d}° | "
-                f"SUN: {sun_angle:06.2f}° | MOON: {moon_angle:06.2f}° | "
-                f"DNHUAA: ACTIVE"
-            )
-            print(status_line, end="", flush=True)
-            time.sleep(1 / 60)
-    except KeyboardInterrupt:
-        print("\n\n[ENGINE LINK] Bridge terminated safely.")
+def get_ephemeris():
+    now = time.time()
+    day_num = (now / 86400.0) + 2440587.5 - 2451545.0
+    g = math.radians((357.529 + 0.98560028 * day_num) % 360)
+    q = (280.459 + 0.98564736 * day_num) % 360
+    L = (q + 1.915 * math.sin(g) + 0.020 * math.sin(2 * g)) % 360
+    e = math.radians(23.439 - 0.00000036 * day_num)
+    
+    ra_sun = math.degrees(math.atan2(math.cos(e) * math.sin(math.radians(L)), math.cos(math.radians(L)))) / 15.0
+    dec_sun = math.degrees(math.asin(math.sin(e) * math.sin(math.radians(L))))
+    
+    m_lon = (218.316 + 13.176396 * day_num) % 360
+    m_lat = 5.128 * math.sin(math.radians((93.272 + 13.229350 * day_num) % 360))
+    m_ra = (math.degrees(math.atan2(math.sin(math.radians(m_lon)) * math.cos(e), math.cos(math.radians(m_lon)))) / 15.0) % 24.0
+    
+    return ra_sun, dec_sun, m_ra, m_lat
 
 if __name__ == "__main__":
-    run_fps_loop()
+    sun_ra, sun_dec, moon_ra, moon_lat = get_ephemeris()
+    print(f"[EPHEMERIS BRIDGED] Sun(RA:{sun_ra:.2f}h, DEC:{sun_dec:+.2f}°) | Moon(RA:{moon_ra:.2f}h, LAT:{moon_lat:+.2f}°)")

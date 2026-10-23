@@ -5,3 +5,5 @@ config.env
 episodes/
 episodes/
 logs/
+__pycache__/
+*.pyc

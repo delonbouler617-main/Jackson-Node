@@ -1,0 +1,11 @@
+Category,Subcategory,Identifier,Balance,Valuation_USD
+AR,Historical_Client_Receivables,AR-HIST-98M,,
+AP,Pontiac_Facility_And_CPU_Adjusted,AP-PONTIAC-FACILITY-CPU,-,-
+Reconciliation,Escrow_Account,98420377101049,250000.00,250000.00
+Token_Operations,Fiat_Energy_Token,VECTOR-COIN-01,5000.00,50000.00
+VIN_Asset,Firebird_Trans_Am,VIN-PON-FB89-7710,-45000.00,-45000.00
+VIN_Asset,Buick_GNX,VIN-BUICK-GNX87-9842,-50000.00,-50000.00
+VIN_Asset,Buick_Riviera,VIN-BUICK-RIV91-3310,-40000.00,-40000.00
+VIN_Asset,Pontiac_Solstice_GXP,VIN-PON-SOL09-4912,-25000.00,-25000.00
+VIN_Asset,Firebird_Formula,VIN-PON-FB98-5521,-24000.00,-24000.00
+VIN_Asset,Pontiac_Solstice_Coupe,VIN-PON-SOL08-8830,-24000.00,-24000.00

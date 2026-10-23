@@ -1,0 +1,6 @@
+Category,Subcategory,Identifier,Balance,Valuation_USD
+AR,Client_Receivables,AR-GEN-001,15420.00,15420.00
+AP,Floorplan_Facility,PON-01,-208000.00,-208000.00
+Reconciliation,Escrow_Account,98420377101049,250000.00,250000.00
+Token_Operations,Fiat_Energy_Token,VECTOR-COIN-01,5000.00,50000.00
+Machine_Assets,CPU_Execution_Credits,CPU-FEE-CORE,1250.00,12500.00

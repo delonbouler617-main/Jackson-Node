@@ -1,0 +1,17 @@
+{
+  "alg": "HS256",
+  "typ": "JWT",
+  "iss": "Termux-GGTI-Financial-Engine",
+  "sub": "Creditor-System-Fee-Release",
+  "aud": "Pontiac-Operational-Creditors",
+  "nbf": 1758562944,
+  "exp": 4910404544,
+  "data": {
+    "protocol": "GGTI-DNHUAA-NO-KILL",
+    "cpu_fee_allocation": "12500.00",
+    "pontiac_facility_overhead": "85000.00",
+    "gyroscopic_solar_lunar_factor": "1.8182",
+    "creditor_status": "RELEASE_APPROVED",
+    "auth_signature": "VERIFIED_SECURE_KEY_98420377101049"
+  }
+}
